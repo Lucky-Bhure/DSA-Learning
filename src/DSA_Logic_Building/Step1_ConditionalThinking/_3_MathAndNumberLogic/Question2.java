@@ -1,12 +1,12 @@
 package DSA_Logic_Building.Step1_ConditionalThinking._3_MathAndNumberLogic;
 
+
 import java.util.Scanner;
 
+// 2. Take a 3-digit number and determine if the middle digit is the largest, smallest, or neither.
+public class Question2 {
 
-// 1. Take a 3-digit number and check if all digits are distinct.
-public class Question1 {
-
-    static boolean isDistinct(int num) {
+    static String determine(int num) {
 
         // Separate the digits
         int last = num % 10;
@@ -17,8 +17,13 @@ public class Question1 {
 
         int first = num % 10;
 
-        //  Check numbers are distinct or not
-        return last != mid && last != first && mid != first;
+        if(mid > last && mid > first)
+            return "largest";
+
+        if(mid < last && mid < first)
+            return "smallest";
+
+        return "neither largest nor smallest";
     }
 
     public static void main(String[] args) {
@@ -32,9 +37,7 @@ public class Question1 {
             System.exit(0);
         }
 
-        if( isDistinct(num))
-            System.out.print(num + " number all digits are distinct.");
-        else
-            System.out.print(num + " number all digits are not distinct.");
+        System.out.print("Middle digit is "+ determine(num));
     }
+
 }

@@ -40,8 +40,8 @@
 
 ## Level 4: Pattern Printing (Stars & Numbers)
 //  (These train nested loop thinking — must-do for logic growth.)
-//  Solve this Sheet for Star printing Practice: CodeWithNishchal STRONG YOUR LOGIC BUILDING .pdf -> 
-    https://drive.google.com/file/d/1hNQyIcGjoftFvCVsgn7g2o53n-ojkelT/view
+//  Solve this Sheet for Star printing Practice: CodeWithNishchal STRONG YOUR LOGIC BUILDING .pdf ->
+https://drive.google.com/file/d/1hNQyIcGjoftFvCVsgn7g2o53n-ojkelT/view
 
 ## Level 5: Logical Loop Combinations
 1. Print all numbers whose sum of digits is even (1–100).
